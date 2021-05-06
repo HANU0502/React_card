@@ -10,16 +10,16 @@ class Cards extends Component{
                         <div className="col-12">
                             <h2>Other ways to work <span style={{color:'red'}}> .</span> </h2>
                         </div>
-                            <div className="col-3">
+                            <div className="col-12 col-md-6 col-lg-3">
                                 <Card />
                             </div>
-                            <div className="col-3">
+                            <div className="col-12 col-md-6 col-lg-3">
                                 <Card />
                             </div>
-                            <div className="col-3">
+                            <div className="col-12 col-md-6 col-lg-3">
                                 <Card />
                             </div>
-                            <div className="col-3">
+                            <div className="col-12 col-md-6 col-lg-3">
                                 <Card />
                             </div>
                     </div>
