@@ -1,10 +1,10 @@
+import React, { Component } from 'react'
 
-import './App.css';
-
+import Cards from './Cards/Cards';
 function App() {
   return (
     <>
-    hellow world
+    <Cards />
     </>
   );
 }
