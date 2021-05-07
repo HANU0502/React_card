@@ -22,9 +22,9 @@ const Heading = () => {
                     <small>Reading times : 2 mins</small>
                     </div>
                     <div className="col-lg-12 p-2">
-                        <div className="row rounded p-1 px-5 ">
-                            <div className="col-sm-6 p-1" style={{backgroundColor:'white'}}>
-                               <div className="p-2">Sharing article : <i className="fab fa-facebook mx-1"></i> <i className="fas fa-home mx-1"></i> <i className="fab fa-twitter-square mx-1"></i></div>
+                        <div className="row rounded p-3 ">
+                            <div className="col-sm-8 p-1" style={{backgroundColor:'white'}}>
+                               <div className="p-2">Sharing article : <i className="fab fa-facebook mx-1"></i> <i className="fas fa-home mx-1"></i> <i className="fab fa-twitter-square mx-1"></i> <i className="fab fa-youtube-square"></i></div>
                             </div>
                         </div>
                     </div>
