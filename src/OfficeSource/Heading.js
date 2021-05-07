@@ -1,4 +1,6 @@
 import React from 'react';
+import Icons from './Icons'
+import './Office.css'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faCoffee, } from '@fortawesome/free-solid-svg-icons'
 const Heading = () => {
@@ -21,20 +23,14 @@ const Heading = () => {
                     <div className="col-lg-12 p-1">
                     <small>Reading times : 2 mins</small>
                     </div>
-                    <div className="col-lg-12 p-2">
-                        <div className="row rounded p-3 ">
-                            <div className="col-sm-8 p-1" style={{backgroundColor:'white'}}>
-                               <div className="p-2">Sharing article : <i className="fab fa-facebook mx-1"></i> <i className="fas fa-home mx-1"></i> <i className="fab fa-twitter-square mx-1"></i> <i className="fab fa-youtube-square"></i></div>
-                            </div>
-                        </div>
-                    </div>
+                    <Icons />
                     <div className="col-lg-12 pt-4">
                         <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet atque consequatur sequi dolores praesentium iste officiis, voluptate consequuntur voluptatibus temporibus rerum esse cupiditate modi! Et laborum ipsa alias porro soluta.</h5>
                     </div>
                 </div>
 
                 <div className="col-lg-7 col-md-6 col-sm-12 ">
-                    <img className="img-responsive float-left" src="https://picsum.photos/seed/picsum/700/600" alt="Nature image" />
+                    <img className="img-responsive img1" src="https://picsum.photos/seed/picsum/700/600" alt="Nature image" />
                 </div>
             </div>
         </div>
