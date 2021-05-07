@@ -1,5 +1,6 @@
 import React from 'react';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 const Heading = () => {
     return(
       <div className="bg-light p-3">
@@ -29,8 +30,10 @@ const Heading = () => {
                     <div className="col-lg-12 p-3">
                         <div className="row rounded p-1 ">
                             <div className="col-3"><small>Share Article : </small></div>
-                            <div className="col-1">Fb</div>
-                            <div className="col-1">Fb</div>
+                            <div className="col-1"><FontAwesomeIcon icon={faCoffee} /></div>
+                            <div className="col-1"><FontAwesomeIcon icon={faCoffee} /></div>
+                            <div className="col-1"><FontAwesomeIcon icon={faCoffee} /></div>
+                            <div className="col-1"><FontAwesomeIcon icon={faCoffee} /></div>
                         </div>
                     </div>
                     <div className="col-lg-12 pt-4">
