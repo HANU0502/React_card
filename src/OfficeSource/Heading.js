@@ -9,7 +9,7 @@ const Heading = () => {
                 <div className="col-lg-5 col-md-6 col-sm-12">
                     <div className="row">
                         <div className="col-sm-6">
-                            <p><i class="fas fa-home"></i> <span><i class="fas fa-chevron-right"></i></span> <b>Office Source</b> </p>
+                            <p><i className="fas fa-home"></i> <span><i className="fas fa-chevron-right"></i></span> <b>Office Source</b> </p>
                         </div>
                     </div>
                     <div className="col-lg-12">
@@ -22,9 +22,9 @@ const Heading = () => {
                     <small>Reading times : 2 mins</small>
                     </div>
                     <div className="col-lg-12 p-2">
-                        <div className="row rounded p-1 ">
-                            <div className="col-sm-6" style={{backgroundColor:'white'}}>
-                               <p className="p-2">Sharing article : <i class="fab fa-facebook"></i> <i class="fas fa-home"></i> <i class="fab fa-twitter-square"></i></p>
+                        <div className="row rounded p-1 px-5 ">
+                            <div className="col-sm-6 p-1" style={{backgroundColor:'white'}}>
+                               <div className="p-2">Sharing article : <i className="fab fa-facebook mx-1"></i> <i className="fas fa-home mx-1"></i> <i className="fab fa-twitter-square mx-1"></i></div>
                             </div>
                         </div>
                     </div>
