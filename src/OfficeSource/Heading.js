@@ -34,7 +34,7 @@ const Heading = () => {
                 </div>
 
                 <div className="col-lg-7 col-md-6 col-sm-12 ">
-                    <img className="img-responsive" src="https://picsum.photos/seed/picsum/700/600" alt="Nature image" />
+                    <img className="img-responsive float-left" src="https://picsum.photos/seed/picsum/700/600" alt="Nature image" />
                 </div>
             </div>
         </div>
