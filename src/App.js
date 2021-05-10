@@ -6,9 +6,10 @@ import Manhattan from './Manhattan/Manhattan'
 function App() {
   return (
     <>
+    <Manhattan />
     <Heading />
     <Cards />
-    <Manhattan />
+    
     </>
   );
 }
