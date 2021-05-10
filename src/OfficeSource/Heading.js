@@ -10,8 +10,10 @@ const Heading = () => {
             <div className="row mt-4 pt-4">
                 <div className="col-lg-5 col-md-6 col-sm-12">
                     <div className="row">
-                        <div className="col-sm-6">
-                            <p><i className="fas fa-home"></i> <span><i className="fas fa-chevron-right"></i></span> <b>Office Source</b> </p>
+                        <div className="col-sm-6 text-dark breadcrumb">
+                            <a href="#" className="breadcrumb-item"><i className="fas fa-home">  </i></a>
+                            <span><i className="fas fa-chevron-right"></i>  </span>
+                            <a href="#" className="breadcrumb-item">Office Source</a>
                         </div>
                     </div>
                     <div className="col-lg-12">
@@ -30,7 +32,7 @@ const Heading = () => {
                 </div>
 
                 <div className="col-lg-7 col-md-6 col-sm-12 ">
-                    <img className="img-responsive img1" src="https://picsum.photos/seed/picsum/700/600" alt="Nature image" />
+                    <img className="img-responsive" src="https://picsum.photos/seed/picsum/700/600" alt="Nature image" />
                 </div>
             </div>
         </div>
